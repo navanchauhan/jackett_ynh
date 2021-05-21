@@ -115,7 +115,7 @@ ynh_systemd_action --service_name=$app --action="stop" --log_path="systemd"
 
 ynh_replace_string --match_string="BasePathOverride": null, --replace_string="BasePathOverride": "$path_url", --target_file="$final_path/.config/Jackett/ServerConfig.json"
 target_string=$(echo \"BasePathOverride\": \"$path_url\")
-gsed --in-place "s@\"BasePathOverride\": null@${target_string}@g" ServerConfig.json
+sed --in-place "s@\"BasePathOverride\": null@${target_string}@g" ServerConfig.json
 
 #=================================================
 # GENERIC FINALIZATION
