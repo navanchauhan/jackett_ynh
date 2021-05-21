@@ -82,9 +82,7 @@ ynh_setup_source --dest_dir="$final_path" --source_id="app.$architecture"
 # this will be treated as a security issue.
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
-mkdir /home/$app
 chown -R $app: $final_path
-chown -R $app: /home/$app
 
 #=================================================
 # NGINX CONFIGURATION
