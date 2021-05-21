@@ -76,9 +76,9 @@ Please send your pull request to the [testing branch](https://github.com/YunoHos
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/example_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/jackett_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade example -u https://github.com/YunoHost-Apps/example_ynh/tree/testing --debug
+sudo yunohost app upgrade jackett -u https://github.com/YunoHost-Apps/jackett_ynh/tree/testing --debug
 ```
 
 **More info regarding app packaging:** https://yunohost.org/packaging_apps
