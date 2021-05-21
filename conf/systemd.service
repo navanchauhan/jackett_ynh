@@ -1,15 +1,17 @@
 [Unit]
-Description=Small description of the service
+Description=Jackett Daemon
 After=network.target
 
 [Service]
+SyslogIdentifier=jackett
+Restart=always
+RestartSec=5
 Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/script
-StandardOutput=append:/var/log/__APP__/__APP__.log
-StandardError=inherit
+ExecStart=/bin/sh "__FINALPATH__/jackett_launcher.sh" --Port __PORT__ --NoUpdates
+TimeoutStopSec=30
 
 [Install]
 WantedBy=multi-user.target
