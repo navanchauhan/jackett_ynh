@@ -9,17 +9,17 @@
     "version": "0.18.98~ynh1",
     "url": "https://example.com",
     "upstream": {
-        "license": "free",
-        "website": "https://example.com",
-        "demo": "https://demo.example.com",
+        "license": "GPL-2.0",
+        "website": "https://github.com/Jackett/Jackett",
+        "demo": "https://github.com/Jackett/Jackett",
         "admindoc": "https://yunohost.org/packaging_apps",
         "userdoc": "https://yunohost.org/apps",
-        "code": "https://some.forge.com/example/example"
+        "code": "https://github.com/Jackett/Jackett"
     },
-    "license": "free",
+    "license": "GPL-2.0",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com"
+        "name": "Navan Chauhan",
+        "email": "navanchauhan+yunohost@gmail.com"
     },
     "requirements": {
         "yunohost": ">= 4.1.3"
