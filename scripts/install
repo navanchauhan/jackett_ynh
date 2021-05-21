@@ -108,7 +108,7 @@ ynh_add_systemd_config
 #=================================================
 ynh_script_progression --message="Configuring Jackett..." --weight=2
 
-ynh_replace_string --match_string='"BasePathOverride": null,' --replace_string=""BasePathOverride": "$path_url,"" --target_file="$final_path/.config/Jackett/ServerConfig.jso"
+ynh_replace_string --match_string="BasePathOverride": null, --replace_string="BasePathOverride": "$path_url", --target_file="$final_path/.config/Jackett/ServerConfig.json"
 
 #=================================================
 # GENERIC FINALIZATION
