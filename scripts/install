@@ -104,6 +104,13 @@ ynh_replace_string --match_string=__PORT__ --replace_string="$port" --target_fil
 ynh_add_systemd_config
 
 #=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression --message="Configuring Jackett..." --weight=2
+
+ynh_replace_string --match_string='"BasePathOverride": null,' --replace_string=""BasePathOverride": "$path_url,"" --target_file="$final_path/.config/Jackett/ServerConfig.jso"
+
+#=================================================
 # GENERIC FINALIZATION
 #=================================================
 # SETUP LOGROTATE
