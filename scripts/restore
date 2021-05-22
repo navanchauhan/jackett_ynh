@@ -83,8 +83,6 @@ chown -R $app:www-data "$final_path"
 #=================================================
 ynh_script_progression --message="Restoring various files..." 
 
-ynh_restore_file --origin_path="/etc/$app/"
-
 #=================================================
 # RESTORE SYSTEMD
 #=================================================
