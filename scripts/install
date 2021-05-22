@@ -109,7 +109,7 @@ ynh_add_systemd_config
 ynh_script_progression --message="Configuring Jackett..." --weight=2
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="Application started. Press Ctrl+C to shut down."
+ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="Hosting environment: Production" --timeout=30
 # Start a systemd service
 ynh_systemd_action --service_name=$app --action="stop" --log_path="systemd"
 
