@@ -86,6 +86,9 @@ then
 	# Set global variables for NGINX helper
 	domain="$old_domain"
 	path_url="$new_path"
+	match_string=$(echo \"BasePathOverride\": \"$old_path\")
+	target_string=$(echo \"BasePathOverride\": \"$new_path\")
+	sed --in-place "s@${match_string}@${target_string}@g" "$final_path/.config/Jackett/ServerConfig.json"
 	# Create a dedicated NGINX config
 	ynh_add_nginx_config
 fi
