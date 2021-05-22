@@ -28,7 +28,7 @@ ynh_script_progression --message="Loading installation settings..."
 
 # Needed for helper "ynh_add_nginx_config"
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
-port=${ynh_app_setting_get --app=$app --key=port}
+app_port=$()ynh_app_setting_get --app=$app --key=port)
 
 #=================================================
 # BACKUP BEFORE CHANGE URL THEN ACTIVE TRAP
@@ -87,6 +87,7 @@ then
 	# Set global variables for NGINX helper
 	domain="$old_domain"
 	path_url="$new_path"
+	port="$app_port"
 	match_string=$(echo \"BasePathOverride\": \"$old_path\")
 	target_string=$(echo \"BasePathOverride\": \"$new_path\")
 	sed --in-place "s@${match_string}@${target_string}@g" "$final_path/.config/Jackett/ServerConfig.json"
