@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Expliquez en *qe idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)
+Interface entre Radarr/Sonarr/Couchpotato et les trackers Bitorrent
 
 **Version incluse :** 0.18.98~ynh1
 
