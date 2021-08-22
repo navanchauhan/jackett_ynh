@@ -91,6 +91,7 @@ fi
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
+chmod +x "$final_path/jackett_launcher.sh"
 
 #=================================================
 # NGINX CONFIGURATION
