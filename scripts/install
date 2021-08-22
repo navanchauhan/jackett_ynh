@@ -85,6 +85,7 @@ ynh_setup_source --dest_dir="$final_path" --source_id="app.$architecture"
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app: $final_path
+chmod +x "$final_path/jackett_launcher.sh"
 
 #=================================================
 # NGINX CONFIGURATION
