@@ -10,7 +10,8 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__FINALPATH__/
-ExecStart=/bin/sh "__FINALPATH__/jackett_launcher.sh" --Port __PORT__ --NoUpdates
+ExecStart=/bin/sh "__FINALPATH__/jackett_launcher.sh" --Port __PORT__ 
+#--NoUpdates
 TimeoutStopSec=30
 
 [Install]
