@@ -6,7 +6,7 @@
         "en": "API Support for your favorite torrent trackers",
         "fr": "Interface entre Radarr/Sonarr/Couchpotato et les trackers Bitorrent"
     },
-    "version": "0.18.98~ynh1",
+    "version": "0.18.590~ynh1",
     "url": "https://example.com",
     "upstream": {
         "license": "GPL-2.0",
