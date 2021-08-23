@@ -3,9 +3,6 @@ Description=Jackett Daemon
 After=network.target
 
 [Service]
-SyslogIdentifier=jackett
-Restart=always
-RestartSec=5
 Type=simple
 User=__APP__
 Group=__APP__
@@ -13,6 +10,9 @@ WorkingDirectory=__FINALPATH__/
 ExecStart=/bin/sh "__FINALPATH__/jackett_launcher.sh" --Port __PORT__ 
 #--NoUpdates
 TimeoutStopSec=30
+SyslogIdentifier=jackett
+Restart=always
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
