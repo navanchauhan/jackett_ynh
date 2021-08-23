@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 API Support for your favorite torrent trackers
 
-**Shipped version:** 0.18.98~ynh1
+**Shipped version:** 0.18.590~ynh1
 
 
 
