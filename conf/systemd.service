@@ -9,6 +9,7 @@ Group=__APP__
 WorkingDirectory=__FINALPATH__/
 ExecStart=/bin/sh "__FINALPATH__/jackett_launcher.sh" --Port __PORT__ 
 #--NoUpdates
+Environment=XDG_CONFIG_HOME=__FINALPATH__/
 TimeoutStopSec=30
 SyslogIdentifier=jackett
 Restart=always
