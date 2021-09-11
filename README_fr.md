@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Interface entre Radarr/Sonarr/Couchpotato et les trackers Bitorrent
 
-**Version incluse :** 0.18.590~ynh1
+**Version incluse :** 0.18.729~ynh1
 
 
 
