@@ -29,7 +29,6 @@ app=$YNH_APP_INSTANCE_NAME
 #=================================================
 # CHECK IF THE APP CAN BE INSTALLED WITH THESE ARGS
 #=================================================
-
 ynh_script_progression --message="Validating installation parameters..." 
 
 final_path=/var/www/$app
