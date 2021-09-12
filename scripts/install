@@ -101,13 +101,7 @@ ynh_add_systemd_config
 #=================================================
 ynh_script_progression --message="Configuring Jackett..." --weight=2
 
-# Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="Hosting environment: Production" --timeout=30
-# Start a systemd service
-ynh_systemd_action --service_name=$app --action="stop" --log_path="systemd"
-
-target_string=$(echo \"BasePathOverride\": \"$path_url\")
-sed --in-place "s@\"BasePathOverride\": null@${target_string}@g" "$final_path/.config/Jackett/ServerConfig.json"
+ynh_add_config --template="../conf/ServerConfig.json" --destination="$final_path/.config/Jackett/ServerConfig.json"
 
 #=================================================
 # GENERIC FINALIZATION
@@ -132,7 +126,7 @@ yunohost service add $app --description="API support for torrent trackers" --log
 ynh_script_progression --message="Starting a systemd service..." 
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
+ynh_systemd_action --service_name=$app --action="restart" --log_path="systemd"
 
 #=================================================
 # SETUP SSOWAT
