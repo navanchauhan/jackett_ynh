@@ -28,7 +28,6 @@ Interface entre Radarr/Sonarr/Couchpotato et les trackers Bitorrent
 ## Documentations et ressources
 
 * Site officiel de l'app : https://github.com/Jackett/Jackett
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app : https://github.com/Jackett/Jackett
 * Documentation YunoHost pour cette app : https://yunohost.org/app_jackett
 * Signaler un bug : https://github.com/YunoHost-Apps/jackett_ynh/issues

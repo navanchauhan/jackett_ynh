@@ -32,7 +32,6 @@ API Support for your favorite torrent trackers
 ## Documentation and resources
 
 * Official app website: https://github.com/Jackett/Jackett
-* Official admin documentation: https://yunohost.org/packaging_apps
 * Upstream app code repository: https://github.com/Jackett/Jackett
 * YunoHost documentation for this app: https://yunohost.org/app_jackett
 * Report a bug: https://github.com/YunoHost-Apps/jackett_ynh/issues
