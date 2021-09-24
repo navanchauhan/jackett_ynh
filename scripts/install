@@ -77,7 +77,7 @@ ynh_setup_source --dest_dir="$final_path" --source_id="app.$architecture"
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
-chown -R $app:www-data $final_path
+chown -R $app:www-data "$final_path"
 chmod +x "$final_path/jackett_launcher.sh"
 
 #=================================================
@@ -102,6 +102,8 @@ ynh_add_systemd_config
 ynh_script_progression --message="Configuring Jackett..." --weight=2
 
 ynh_add_config --template="../conf/ServerConfig.json" --destination="$final_path/.config/Jackett/ServerConfig.json"
+chmod 600 "$final_path/.config/Jackett/ServerConfig.json"
+chown -R $app:$app "$final_path/.config/Jackett/ServerConfig.json"
 
 #=================================================
 # GENERIC FINALIZATION
