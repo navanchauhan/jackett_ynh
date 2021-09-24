@@ -7,11 +7,10 @@
         "fr": "Interface entre Radarr/Sonarr/Couchpotato et les trackers Bitorrent"
     },
     "version": "0.18.729~ynh1",
-    "url": "https://example.com",
+    "url": "https://github.com/Jackett/Jackett",
     "upstream": {
         "license": "GPL-2.0",
         "website": "https://github.com/Jackett/Jackett",
-        "admindoc": "https://yunohost.org/packaging_apps",
         "code": "https://github.com/Jackett/Jackett"
     },
     "license": "GPL-2.0",
@@ -30,8 +29,7 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "path",
