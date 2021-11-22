@@ -11,7 +11,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Vue d'ensemble
 
-Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)
+Jackett permet d'utiliser votre tracker favorit en fournissant une API à intégrer dans votre gestionnaire de bibliothèque.
 
 **Version incluse:** 0.18.98~ynh1
 
@@ -28,13 +28,13 @@ Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'o
 
 ## Avertissements / informations importantes
 
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * No LDAP Support
+* Toute limitation ou contrainte connue ou tout élément ne fonctionnant pas, tel que (mais non limité à) :
+    * Absence du support LDAP
 
 
 ## Documentations et ressources
 
-* Site official de l'app : https://github.com/Jackett/Jackett
+* Site officiel de l'app : https://github.com/Jackett/Jackett
 * Documentation officielle utilisateur: https://yunohost.org/apps
 * Documentation officielle de l'admin: https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app:  https://github.com/Jackett/Jackett
