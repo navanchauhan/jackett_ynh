@@ -11,9 +11,9 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)
+API pour vos trackers torrent préférés
 
-**Version incluse :** 0.18.98~ynh1
+**Version incluse :** 0.20.53~ynh1
 
 **Démo :** https://github.com/Jackett/Jackett
 
@@ -28,8 +28,6 @@ Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'o
 ## Documentations et ressources
 
 * Site officiel de l'app : https://github.com/Jackett/Jackett
-* Documentation officielle utilisateur : https://yunohost.org/apps
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app : https://github.com/Jackett/Jackett
 * Documentation YunoHost pour cette app : https://yunohost.org/app_jackett
 * Signaler un bug : https://github.com/YunoHost-Apps/jackett_ynh/issues

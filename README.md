@@ -15,9 +15,9 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-It provides API support for your favorite torrent trackers.
+API support for your favorite torrent trackers
 
-**Shipped version:** 0.18.98~ynh1
+**Shipped version:** 0.20.53~ynh1
 
 **Demo:** https://github.com/Jackett/Jackett
 
@@ -32,8 +32,6 @@ It provides API support for your favorite torrent trackers.
 ## Documentation and resources
 
 * Official app website: https://github.com/Jackett/Jackett
-* Official user documentation: https://yunohost.org/apps
-* Official admin documentation: https://yunohost.org/packaging_apps
 * Upstream app code repository: https://github.com/Jackett/Jackett
 * YunoHost documentation for this app: https://yunohost.org/app_jackett
 * Report a bug: https://github.com/YunoHost-Apps/jackett_ynh/issues
