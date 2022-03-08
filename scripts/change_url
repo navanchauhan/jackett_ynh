@@ -28,7 +28,7 @@ ynh_script_progression --message="Loading installation settings..."
 
 # Needed for helper "ynh_add_nginx_config"
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
-app_port=$()ynh_app_setting_get --app=$app --key=port)
+port=$(ynh_app_setting_get --app=$app --key=port)
 
 #=================================================
 # BACKUP BEFORE CHANGE URL THEN ACTIVE TRAP
@@ -38,6 +38,7 @@ ynh_script_progression --message="Backing up the app before changing its URL (ma
 # Backup the current version of the app
 ynh_backup_before_upgrade
 ynh_clean_setup () {
+	ynh_clean_check_starting
 	# Remove the new domain config file, the remove script won't do it as it doesn't know yet its location.
 	ynh_secure_remove --file="/etc/nginx/conf.d/$new_domain.d/$app.conf"
 
@@ -87,9 +88,10 @@ then
 	# Set global variables for NGINX helper
 	domain="$old_domain"
 	path_url="$new_path"
-	port="$app_port"
-	match_string=$(echo \"BasePathOverride\": \"$old_path\")
-	target_string=$(echo \"BasePathOverride\": \"$new_path\")
+	old_path_no_root=${old_path%/}
+	new_path_no_root=${new_path%/}
+	match_string=$(echo \"BasePathOverride\": \"$old_path_no_root\")
+	target_string=$(echo \"BasePathOverride\": \"$new_path_no_root\")
 	sed --in-place "s@${match_string}@${target_string}@g" "$final_path/.config/Jackett/ServerConfig.json"
 	# Create a dedicated NGINX config
 	ynh_add_nginx_config
@@ -112,6 +114,7 @@ fi
 #=================================================
 ynh_script_progression --message="Starting a systemd service..." 
 
+# Start a systemd service
 ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
 
 #=================================================

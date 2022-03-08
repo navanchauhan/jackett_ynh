@@ -42,6 +42,14 @@ ynh_script_progression --message="Stopping and removing the systemd service..."
 ynh_remove_systemd_config
 
 #=================================================
+# REMOVE LOGROTATE CONFIGURATION
+#=================================================
+ynh_script_progression --message="Removing logrotate configuration..." 
+
+# Remove the app-specific logrotate config
+ynh_remove_logrotate
+
+#=================================================
 # REMOVE APP MAIN DIR
 #=================================================
 ynh_script_progression --message="Removing app main directory..." 
@@ -56,14 +64,6 @@ ynh_script_progression --message="Removing NGINX web server configuration..."
 
 # Remove the dedicated NGINX config
 ynh_remove_nginx_config
-
-#=================================================
-# REMOVE LOGROTATE CONFIGURATION
-#=================================================
-ynh_script_progression --message="Removing logrotate configuration..." 
-
-# Remove the app-specific logrotate config
-ynh_remove_logrotate
 
 #=================================================
 # SPECIFIC REMOVE

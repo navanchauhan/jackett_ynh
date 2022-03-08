@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 API pour vos trackers torrent préférés
 
-**Version incluse :** 0.20.53~ynh1
+**Version incluse :** 0.20.671~ynh1
 
 **Démo :** https://github.com/Jackett/Jackett
 

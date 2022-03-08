@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/Jackett/Jackett/releases/download/v0.20.53/Jackett.Binaries.LinuxAMDx64.tar.gz
-SOURCE_SUM=ea6283621b5c1a61dc4613b27261d010bf959520db530939767a4be8e925f5dd
+SOURCE_URL=https://github.com/Jackett/Jackett/releases/download/v0.20.671/Jackett.Binaries.LinuxAMDx64.tar.gz
+SOURCE_SUM=8c8d5f46e62903870170cece561d3961c62a07c0217f47c60f3a189c8849f0c4
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
