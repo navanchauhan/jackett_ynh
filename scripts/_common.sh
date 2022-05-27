@@ -4,11 +4,6 @@
 # COMMON VARIABLES
 #=================================================
 
-architecture=$(dpkg --print-architecture)
-if [ $architecture = "amd64" ]; then
-  architecture="x64"
-fi
-
 #=================================================
 # PERSONAL HELPERS
 #=================================================
