@@ -73,6 +73,9 @@ case $asset_url in
   *"Jackett.Binaries.LinuxARM32.tar.gz")
     src="armhf"
     ;;
+  *)
+    src=""
+    ;;
 esac
 
 # If $src is not empty, let's process the asset
