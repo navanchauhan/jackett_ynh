@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/Jackett/Jackett/releases/download/v0.20.53/Jackett.Binaries.LinuxARM32.tar.gz
-SOURCE_SUM=77197e9a617664a1950534154de3d057c9c9e04bab6ef7f1d1c917c541ed8643
+SOURCE_URL=https://github.com/Jackett/Jackett/releases/download/v0.20.1790/Jackett.Binaries.LinuxARM32.tar.gz
+SOURCE_SUM=7dbcdf9ee66501ec3983b35f6d7b2749eadb70f17a24188d2e68a583a8e258b8
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
