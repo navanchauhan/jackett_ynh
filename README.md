@@ -19,6 +19,7 @@ API support for your favorite torrent trackers
 
 **Shipped version:** 0.20.53~ynh1
 
+
 **Demo:** https://github.com/Jackett/Jackett
 
 ## Screenshots
