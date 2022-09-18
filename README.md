@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 API support for your favorite torrent trackers
 
-**Shipped version:** 0.20.1810~ynh1
+**Shipped version:** 0.20.1910~ynh1
 
 
 **Demo:** https://github.com/Jackett/Jackett
