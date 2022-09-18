@@ -6,7 +6,7 @@
         "en": "API support for your favorite torrent trackers",
         "fr": "API pour vos trackers torrent préférés"
     },
-    "version": "0.20.1810~ynh1",
+    "version": "0.20.1910~ynh1",
     "url": "https://github.com/Jackett/Jackett",
     "upstream": {
         "license": "GPL-2.0",
