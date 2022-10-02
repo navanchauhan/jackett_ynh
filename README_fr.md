@@ -17,7 +17,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 API pour vos trackers torrent préférés
 
-**Version incluse :** 0.20.1810~ynh1
+**Version incluse :** 0.20.2041~ynh1 *(:warning: Il s'agit de la branche `ci-auto-update-v0.20.2041`. La [branche `master`](https://github.com/YunoHost-Apps/jackett_ynh/tree/master) utilisée dans le catalogue est actuellement en 0.20.53\~ynh1.)*
 
 
 **Démo :** https://github.com/Jackett/Jackett
