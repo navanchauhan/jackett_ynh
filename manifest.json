@@ -10,8 +10,6 @@
     "url": "https://github.com/Jackett/Jackett",
     "upstream": {
         "license": "GPL-2.0",
-        "website": "https://github.com/Jackett/Jackett",
-        "demo": "https://github.com/Jackett/Jackett",
         "code": "https://github.com/Jackett/Jackett"
     },
     "license": "GPL-2.0",
