@@ -19,8 +19,6 @@ API pour vos trackers torrent préférés
 
 **Version incluse :** 0.20.53~ynh1
 
-**Démo :** https://github.com/Jackett/Jackett
-
 ## Captures d'écran
 
 ![Capture d'écran de Jackett](./doc/screenshots/demo.png)
@@ -31,7 +29,6 @@ API pour vos trackers torrent préférés
     * No LDAP Support
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://github.com/Jackett/Jackett>
 * Dépôt de code officiel de l'app : <https://github.com/Jackett/Jackett>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_jackett>
 * Signaler un bug : <https://github.com/YunoHost-Apps/jackett_ynh/issues>
