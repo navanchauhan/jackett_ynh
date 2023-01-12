@@ -17,8 +17,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 API pour vos trackers torrent préférés
 
-**Version incluse :** 0.20.1810~ynh1
-
+**Version incluse :** 0.20.1810~ynh1
 
 ## Captures d'écran
 
