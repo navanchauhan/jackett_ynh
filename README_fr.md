@@ -5,23 +5,24 @@ It shall NOT be edited by hand.
 
 # Jackett pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/jackett.svg)](https://dash.yunohost.org/appci/app/jackett) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/jackett.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/jackett.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/jackett.svg)](https://dash.yunohost.org/appci/app/jackett) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/jackett.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/jackett.maintain.svg)
+
 [![Installer Jackett avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=jackett)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Jackett rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Jackett rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 API pour vos trackers torrent préférés
 
 **Version incluse :** 0.20.1810~ynh1
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Jackett](./doc/screenshots/demo.png)
+![Capture d’écran de Jackett](./doc/screenshots/demo.png)
 
 ## Avertissements / informations importantes
 
@@ -29,7 +30,7 @@ API pour vos trackers torrent préférés
     * No LDAP Support
 ## Documentations et ressources
 
-* Dépôt de code officiel de l'app : <https://github.com/Jackett/Jackett>
+* Dépôt de code officiel de l’app : <https://github.com/Jackett/Jackett>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_jackett>
 * Signaler un bug : <https://github.com/YunoHost-Apps/jackett_ynh/issues>
 
@@ -45,4 +46,4 @@ ou
 sudo yunohost app upgrade jackett -u https://github.com/YunoHost-Apps/jackett_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
