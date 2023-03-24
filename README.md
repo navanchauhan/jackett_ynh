@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Jackett for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/jackett.svg)](https://dash.yunohost.org/appci/app/jackett) ![Working status](https://ci-apps.yunohost.org/ci/badges/jackett.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/jackett.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/jackett.svg)](https://dash.yunohost.org/appci/app/jackett) ![Working status](https://ci-apps.yunohost.org/ci/badges/jackett.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/jackett.maintain.svg)
+
 [![Install Jackett with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=jackett)
 
 *[Lire ce readme en français.](./README_fr.md)*
