@@ -31,7 +31,7 @@ API pour vos trackers torrent préférés
 ## Documentations et ressources
 
 * Dépôt de code officiel de l’app : <https://github.com/Jackett/Jackett>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_jackett>
+* YunoHost Store: <https://apps.yunohost.org/app/jackett>
 * Signaler un bug : <https://github.com/YunoHost-Apps/jackett_ynh/issues>
 
 ## Informations pour les développeurs
