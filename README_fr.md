@@ -16,7 +16,8 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-API pour vos trackers torrent préférés
+Jackett works as a proxy server: it translates queries from apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious etc.) into tracker-site-specific http queries, parses the html or json response, and then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.
+
 
 **Version incluse :** 0.20.1810~ynh1
 
@@ -24,10 +25,6 @@ API pour vos trackers torrent préférés
 
 ![Capture d’écran de Jackett](./doc/screenshots/demo.png)
 
-## Avertissements / informations importantes
-
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * No LDAP Support
 ## Documentations et ressources
 
 * Dépôt de code officiel de l’app : <https://github.com/Jackett/Jackett>
