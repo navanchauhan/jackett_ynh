@@ -45,9 +45,7 @@ ynh_systemd_action --service_name="$app" --action="start" --log_path="systemd" -
 # Start a systemd service
 ynh_systemd_action --service_name="$app" --action="stop" --log_path="systemd"
 
-jq ".BasePathOverride = \"$path\"" "$install_dir/.config/Jackett/ServerConfig.json" \
-    > "$install_dir/.config/Jackett/ServerConfig.json.tmp"
-mv "$install_dir/.config/Jackett/ServerConfig.json.tmp" "$install_dir/.config/Jackett/ServerConfig.json"
+_set_BasePathOverride
 
 #=================================================
 # START SYSTEMD SERVICE
