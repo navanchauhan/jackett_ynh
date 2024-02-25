@@ -9,8 +9,8 @@ RestartSec=5
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__FINALPATH__/
-ExecStart=/bin/sh "__FINALPATH__/jackett_launcher.sh" --Port __PORT__ --NoUpdates
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=/bin/sh "__INSTALL_DIR__/jackett_launcher.sh" --Port __PORT__ --NoUpdates
 TimeoutStopSec=30
 
 # Sandboxing options to harden security
