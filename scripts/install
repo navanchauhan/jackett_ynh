@@ -41,12 +41,13 @@ ynh_use_logrotate
 ynh_script_progression --message="Configuring Jackett..." --weight=2
 
 # Start a systemd service
-ynh_systemd_action --service_name="$app" --action="start" --log_path="systemd" --line_match="Hosting environment: Production" --timeout=30
+ynh_systemd_action --service_name="$app" --action="start" --log_path="systemd" --line_match="Application started." --timeout=30
 # Start a systemd service
 ynh_systemd_action --service_name="$app" --action="stop" --log_path="systemd"
 
-target_string=$(echo \"BasePathOverride\": \"$path\")
-sed --in-place "s@\"BasePathOverride\": null@${target_string}@g" "$install_dir/.config/Jackett/ServerConfig.json"
+jq ".BasePathOverride = \"$path\"" "$install_dir/.config/Jackett/ServerConfig.json" \
+    > "$install_dir/.config/Jackett/ServerConfig.json.tmp"
+mv "$install_dir/.config/Jackett/ServerConfig.json.tmp" "$install_dir/.config/Jackett/ServerConfig.json"
 
 #=================================================
 # START SYSTEMD SERVICE

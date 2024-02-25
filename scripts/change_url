@@ -28,9 +28,9 @@ ynh_change_url_nginx_config
 
 # Change the path in the NGINX config file
 if [ "$change_path" -eq 1 ]; then
-	match_string=$(echo \"BasePathOverride\": \"$old_path\")
-	target_string=$(echo \"BasePathOverride\": \"$new_path\")
-	sed --in-place "s@${match_string}@${target_string}@g" "$install_dir/.config/Jackett/ServerConfig.json"
+	jq ".BasePathOverride = \"$path\"" "$install_dir/.config/Jackett/ServerConfig.json" \
+		> "$install_dir/.config/Jackett/ServerConfig.json.tmp"
+	mv "$install_dir/.config/Jackett/ServerConfig.json.tmp" "$install_dir/.config/Jackett/ServerConfig.json"
 fi
 
 #=================================================
