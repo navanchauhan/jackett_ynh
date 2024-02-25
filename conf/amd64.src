@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/Jackett/Jackett/releases/download/v0.20.1810/Jackett.Binaries.LinuxAMDx64.tar.gz
-SOURCE_SUM=dc0aae30349ac305511afa59bcbf7a306cb6db220b6ddfe95b2e799658957b7b
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_EXTRACT=true
-SOURCE_FILENAME=jackett.tar.gz
