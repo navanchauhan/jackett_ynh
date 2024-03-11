@@ -1,0 +1,62 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "jackett"
+name = "Jackett"
+description.en = "API support for your favorite torrent trackers"
+description.fr = "API pour vos trackers torrent préférés"
+
+version = "0.20.1810~ynh1"
+
+maintainers = ["Navan Chauhan"]
+
+[upstream]
+license = "GPL-2.0"
+code = "https://github.com/Jackett/Jackett"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = ["amd64", "arm64", "armhf"]
+multi_instance = true
+ldap = false
+sso = false
+disk = "200M"
+ram.build = "500M"
+ram.runtime = "200M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/jackett"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+    [resources.sources.main]
+    amd64.url = "https://github.com/Jackett/Jackett/releases/download/v0.20.1810/Jackett.Binaries.LinuxAMDx64.tar.gz"
+    amd64.sha256 = "dc0aae30349ac305511afa59bcbf7a306cb6db220b6ddfe95b2e799658957b7b"
+    arm64.url = "https://github.com/Jackett/Jackett/releases/download/v0.20.1810/Jackett.Binaries.LinuxARM64.tar.gz"
+    arm64.sha256 = "83ee7b336fc5f69939e66279a042b81876fc25b512a37588e1dbdc471591fd35"
+    armhf.url = "https://github.com/Jackett/Jackett/releases/download/v0.20.1810/Jackett.Binaries.LinuxARM32.tar.gz"
+    armhf.sha256 = "71a9519479ea4456eb31c5586fa2f30e1a5908d4cd764ee64d49bee20a0aba74"
+
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = "^Jackett.Binaries.LinuxAMDx64.tar.gz$"
+    autoupdate.asset.arm64 = "^Jackett.Binaries.LinuxARM64.tar.gz$"
+    autoupdate.asset.armhf = "^Jackett.Binaries.LinuxARM32.tar.gz$"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+    main.default = 9117
