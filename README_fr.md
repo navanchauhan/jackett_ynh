@@ -18,8 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Jackett works as a proxy server: it translates queries from apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious etc.) into tracker-site-specific http queries, parses the html or json response, and then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.
 
-
-**Version incluse :** 0.20.1810~ynh1
+**Version incluse :** 0.21.2056~ynh1
 
 ## Captures d’écran
 
@@ -27,9 +26,9 @@ Jackett works as a proxy server: it translates queries from apps (Sonarr, Radarr
 
 ## Documentations et ressources
 
-* Dépôt de code officiel de l’app : <https://github.com/Jackett/Jackett>
-* YunoHost Store: <https://apps.yunohost.org/app/jackett>
-* Signaler un bug : <https://github.com/YunoHost-Apps/jackett_ynh/issues>
+- Dépôt de code officiel de l’app : <https://github.com/Jackett/Jackett>
+- YunoHost Store : <https://apps.yunohost.org/app/jackett>
+- Signaler un bug : <https://github.com/YunoHost-Apps/jackett_ynh/issues>
 
 ## Informations pour les développeurs
 
@@ -37,7 +36,7 @@ Merci de faire vos pull request sur la [branche testing](https://github.com/Yuno
 
 Pour essayer la branche testing, procédez comme suit.
 
-``` bash
+```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/jackett_ynh/tree/testing --debug
 ou
 sudo yunohost app upgrade jackett -u https://github.com/YunoHost-Apps/jackett_ynh/tree/testing --debug
