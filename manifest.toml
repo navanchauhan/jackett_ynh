@@ -7,7 +7,7 @@ name = "Jackett"
 description.en = "API support for your favorite torrent trackers"
 description.fr = "API pour vos trackers torrent préférés"
 
-version = "0.21.2732~ynh1"
+version = "0.21.2736~ynh1"
 
 maintainers = ["Navan Chauhan"]
 
@@ -39,12 +39,12 @@ ram.runtime = "200M"
 
 [resources]
     [resources.sources.main]
-    amd64.url = "https://github.com/Jackett/Jackett/releases/download/v0.21.2732/Jackett.Binaries.LinuxAMDx64.tar.gz"
-    amd64.sha256 = "63a1c4626a066b4ef1ebc1c68f07e626f2f68529e0f9d2a921e5303b2bbf0adc"
-    arm64.url = "https://github.com/Jackett/Jackett/releases/download/v0.21.2732/Jackett.Binaries.LinuxARM64.tar.gz"
-    arm64.sha256 = "a7fc5ba383bae489be1c0afd290e6e1893dee7c94856d1cf8de2478b2f0d6929"
-    armhf.url = "https://github.com/Jackett/Jackett/releases/download/v0.21.2732/Jackett.Binaries.LinuxARM32.tar.gz"
-    armhf.sha256 = "1b668331f6dab9d5d0e6a091f0217ce49f84578841dea1c9ea2ea9d4249ed98d"
+    amd64.url = "https://github.com/Jackett/Jackett/releases/download/v0.21.2736/Jackett.Binaries.LinuxAMDx64.tar.gz"
+    amd64.sha256 = "7884b7b4387000c3c156a85723b48a09a7f0f510b20c14cc8023159a3f35d196"
+    arm64.url = "https://github.com/Jackett/Jackett/releases/download/v0.21.2736/Jackett.Binaries.LinuxARM64.tar.gz"
+    arm64.sha256 = "e8103551a0612dcba74f0c1783e0bc433448fab71acf5334e346c017bffe5687"
+    armhf.url = "https://github.com/Jackett/Jackett/releases/download/v0.21.2736/Jackett.Binaries.LinuxARM32.tar.gz"
+    armhf.sha256 = "c524ebce92d0209e1fff8d36ec4b03958d5e0994d7a9501126fa48f3d735799f"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = "^Jackett.Binaries.LinuxAMDx64.tar.gz$"
