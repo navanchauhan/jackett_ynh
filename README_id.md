@@ -27,7 +27,7 @@ Jackett works as a proxy server: it translates queries from apps (Sonarr, Radarr
 
 ## Dokumentasi dan sumber daya
 
-- Repositori kode aplikasi hulu: <https://github.com/Jackett/Jackett>
+- Depot kode aplikasi hulu: <https://github.com/Jackett/Jackett>
 - Gudang YunoHost: <https://apps.yunohost.org/app/jackett>
 - Laporkan bug: <https://github.com/YunoHost-Apps/jackett_ynh/issues>
 
