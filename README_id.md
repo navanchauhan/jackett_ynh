@@ -19,7 +19,7 @@ Ini TIDAK boleh diedit dengan tangan.
 Jackett works as a proxy server: it translates queries from apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious etc.) into tracker-site-specific http queries, parses the html or json response, and then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.
 
 
-**Versi terkirim:** 0.22.364~ynh1
+**Versi terkirim:** 0.22.420~ynh1
 
 ## Tangkapan Layar
 
@@ -27,7 +27,7 @@ Jackett works as a proxy server: it translates queries from apps (Sonarr, Radarr
 
 ## Dokumentasi dan sumber daya
 
-- Repositori kode aplikasi hulu: <https://github.com/Jackett/Jackett>
+- Depot kode aplikasi hulu: <https://github.com/Jackett/Jackett>
 - Gudang YunoHost: <https://apps.yunohost.org/app/jackett>
 - Laporkan bug: <https://github.com/YunoHost-Apps/jackett_ynh/issues>
 
