@@ -1,11 +1,7 @@
 #!/bin/bash
 
 #=================================================
-# COMMON VARIABLES
-#=================================================
-
-#=================================================
-# PERSONAL HELPERS
+# COMMON VARIABLES AND CUSTOM HELPERS
 #=================================================
 
 _set_BasePathOverride() {
@@ -19,11 +15,3 @@ _set_BasePathOverride() {
         > "$install_dir/.config/Jackett/ServerConfig.json.tmp"
     mv "$install_dir/.config/Jackett/ServerConfig.json.tmp" "$install_dir/.config/Jackett/ServerConfig.json"
 }
-
-#=================================================
-# EXPERIMENTAL HELPERS
-#=================================================
-
-#=================================================
-# FUTURE OFFICIAL HELPERS
-#=================================================
