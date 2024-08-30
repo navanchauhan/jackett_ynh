@@ -16,8 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Jackett works as a proxy server: it translates queries from apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious etc.) into tracker-site-specific http queries, parses the html or json response, and then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.
-
+Jackett fonctionne comme un serveur proxy : il traduit les requêtes des applications (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious, etc.) en requêtes http spécifiques au site de suivi, analyse la réponse HTML ou JSON, puis renvoie les résultats au logiciel demandeur. Cela permet d'obtenir des téléchargements récents (comme RSS) et d'effectuer des recherches. Jackett est un référentiel unique de logique de scraping et de traduction d'indexeurs maintenue, ce qui supprime la charge des autres applications.
 
 **Version incluse :** 0.22.526~ynh1
 
