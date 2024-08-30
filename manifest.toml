@@ -16,7 +16,7 @@ license = "GPL-2.0"
 code = "https://github.com/Jackett/Jackett"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.28"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = false

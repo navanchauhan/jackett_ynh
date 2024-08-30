@@ -1,5 +1,5 @@
 [Unit]
-Description=Jackett Daemon
+Description=Jackett: API support for torrent trackers
 After=network.target
 
 [Service]
