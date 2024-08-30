@@ -7,7 +7,7 @@ name = "Jackett"
 description.en = "API support for your favorite torrent trackers"
 description.fr = "API pour vos trackers torrent préférés"
 
-version = "0.22.526~ynh1"
+version = "0.22.526~ynh2"
 
 maintainers = ["Navan Chauhan"]
 
