@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Jackett pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/jackett.svg)](https://ci-apps.yunohost.org/ci/apps/jackett/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/jackett.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/jackett.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/jackett)](https://ci-apps.yunohost.org/ci/apps/jackett/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/jackett)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/jackett)
 
 [![Installer Jackett avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=jackett)
 
@@ -18,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 Jackett fonctionne comme un serveur proxy : il traduit les requêtes des applications (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious, etc.) en requêtes http spécifiques au site de suivi, analyse la réponse HTML ou JSON, puis renvoie les résultats au logiciel demandeur. Cela permet d'obtenir des téléchargements récents (comme RSS) et d'effectuer des recherches. Jackett est un référentiel unique de logique de scraping et de traduction d'indexeurs maintenue, ce qui supprime la charge des autres applications.
 
-**Version incluse :** 0.22.714~ynh1
+**Version incluse :** 0.22.1101~ynh1
 
 ## Captures d’écran
 
