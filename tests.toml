@@ -7,3 +7,8 @@ test_format = 1.0
     # ------------
     # Tests to run
     # ------------
+
+    [default.curl_tests]
+    # ugly hack to make tests enable cookies,
+    # otherwise UI says 'Enable cookies' and fails
+    default.logged_on_sso = true
