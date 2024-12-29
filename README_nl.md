@@ -23,7 +23,6 @@ Jackett works as a proxy server: it translates queries from apps (Sonarr, Radarr
 
 **Geleverde versie:** 0.22.1136~ynh1
 
-
 ## Schermafdrukken
 
 ![Schermafdrukken van Jackett](./doc/screenshots/demo.png)

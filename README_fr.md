@@ -22,7 +22,6 @@ Jackett fonctionne comme un serveur proxy : il traduit les requêtes des applica
 
 **Version incluse :** 0.22.1136~ynh1
 
-
 ## Captures d’écran
 
 ![Capture d’écran de Jackett](./doc/screenshots/demo.png)
