@@ -8,4 +8,7 @@ test_format = 1.0
     # Tests to run
     # ------------
 
-    test_upgrade_from.b34211636ffd4bfb0a0515490cdd6d0afba9d482.name = "Last packagingv1 version"
+    [default.curl_tests]
+    # ugly hack to make tests enable cookies,
+    # otherwise UI says 'Enable cookies' and fails
+    default.logged_on_sso = true
